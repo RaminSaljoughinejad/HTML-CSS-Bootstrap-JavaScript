@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#myDIV {
+				width: 150px;
+				height: 35px;
+				color:white;
+				background: red;
+			}
+			#myDIV:hover{
+				-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+				animation: mymove 5s infinite;
+			}
+			/* Chrome, Safari, Opera */
+			@-webkit-keyframes mymove {
+			from {
+				background-color: red;
+			}
+			to {
+				background-color: blue;
+			}
+			}
+
+			/* Standard syntax */
+			@keyframes
+			mymove {from {
+				background-color: red;
+			}
+			to {
+				background-color: blue;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<input type="submit" id="myDIV" />
+	</body>
+</html>

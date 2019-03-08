@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Media</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+			#wrapper{
+				background-color:red;
+				width:70%;
+				height:200px;
+				margin-right:auto;
+				margin-left:auto;
+			}
+			@media screen and (min-width: 300px){
+				#wrapper{
+					background-color:green;
+					width:100%;
+				}
+				
+			}
+			@media screen and (min-width: 500px){
+				#wrapper{
+					background-color:pink;
+					width:90%;
+				}
+				
+			}
+			@media screen and (min-width: 700px){
+				#wrapper{
+					background-color:lightblue;
+					width:85%;
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper"> </div>
+	</body>
+</html>

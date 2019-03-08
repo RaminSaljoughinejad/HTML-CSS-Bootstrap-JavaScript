@@ -1,0 +1,61 @@
+﻿.jumbotron{
+	background-color:#FF8D00;
+	color:#FFFFFF;
+	padding-right:20px;
+	padding-left:20px;	
+}
+.bg-gray{
+	background-color:#F6F6F6;
+}
+.container-fluid{
+	padding:60px 50px;
+}
+.my-logo{
+	margin-top:55px;
+	font-size:200px;
+	color:#FF8D00;
+}
+.my-logo-small{
+	font-size:50px;
+	color:#FF8D00;
+}
+@media screen and (max-width:768px){
+	.col-sm-4{
+		text-align:center;
+		margin:35px 0;
+	}
+	.my-logo{
+		margin-top:0px;
+	}
+}
+.justy{
+	text-align:justify;
+}
+.col-sm-8 h4,.col-sm-8 h2{
+	margin-bottom:50px;
+}
+.serv-row{
+	margin-top:60px;
+}
+.thumbnail{
+	border:none;
+	padding:0 0 15px 0;
+}
+.thumbnail img{
+	width:100%;
+	height:100%;
+	margin-bottom:30px;
+}
+.carousel-control.right, .carousel-control.left{
+	background-image:none;
+	color:#FF8D00;
+}
+.carousel-indicators li{
+	border-color:#FF8D00;
+}
+.carousel-indicators li.active{
+	background-color:#FF8D00;
+}
+.item{
+	margin:80px 0px;
+}

@@ -1,0 +1,81 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("../image/login-background-1920.3f7pb.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#263545;
+}
+#wrapper{
+	width:250px;
+	background-color:rgba(255,255,255,0.1);
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+#wrapper input[type="text"],input[type="email"],input[type="password"]{
+	width:250px;
+	height:35px;
+	margin-top:10px;
+	text-align: center;
+	background-color:rgba(0,0,0,0.4);
+	color:white;
+	border:1px solid;
+	border-color: lightblue;
+}
+#wrapper input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
+	border:1px solid red;
+}
+#wrapper select{
+	width:250px;
+	height:35px;
+	margin-top:10px;
+	text-align: center;
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+	border:1px solid lightblue;
+}
+.oneLine{
+	width:250px;
+	margin-top:10px;
+	color:white;
+}
+.oneLine span,input[type="radio"]{
+	margin-right:0px;
+	margin-left:10px;
+}
+#wrapper input[type="file"]{
+	margin-top:10px;
+}
+#wrapper input[type="submit"]{
+	width:250px;
+	height:40px;
+	margin-top:20px;
+	background-color:rgba(0,0,0,0.6);
+	border:none;
+	color:white;
+}
+#wrapper input[type="submit"]:hover{
+	background-color:#214D74;
+	border:none;
+}
+#wrapper input[type="submit"]:active{
+	background-color:lightgreen;
+}
+#wrapper input[type="file"]{
+	color:white;
+}
+#logo{
+	width:250px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:25px;
+	text-align:center;
+	margin-top:80px;
+}

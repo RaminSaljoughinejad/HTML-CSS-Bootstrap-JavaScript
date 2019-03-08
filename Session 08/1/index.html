@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#myDIV {
+				width: 300px;
+				height: 200px;
+				background: blue;
+				-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+				animation: mymove 5s infinite; /* standard syntax */
+			}
+
+			/* Chrome, Safari, Opera, IE7+ */
+			@-webkit-keyframes mymove {
+			from {
+				background-color: blue;
+			}
+			to {
+				background-color: red;
+			}
+			}
+
+			/* Standard syntax */
+			@keyframes
+			mymove {from {
+				background-color: blue;
+			}
+			to {
+				background-color: red;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="myDIV"></div>
+	</body>
+</html>

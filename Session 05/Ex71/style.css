@@ -1,0 +1,21 @@
+﻿body{
+	background-color:lightblue;
+}
+#firstDiv{
+	background-color:red;
+	width:200px;
+	float: right;
+}
+#secondDiv{
+	background-color:lightgreen;
+	width:300px;
+	float:right;
+}
+#firstDiv p{
+	text-align: center;
+}
+#firstDiv a{
+	padding:0px 50px 0px 50px;
+	text-align:right;
+	background-color:blue;
+}

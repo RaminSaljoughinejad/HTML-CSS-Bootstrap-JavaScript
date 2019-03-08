@@ -1,0 +1,67 @@
+﻿@media (min-width: 768px){
+	.navbar-nav{
+		float:none;
+		margin:0 auto;
+		display: table;
+		table-layout: fixed;
+	}
+}
+.glyphicon-apple{
+	font-size:2em !important;
+}
+.glyphicon-search, .glyphicon-shopping-cart{
+	font-size:1.6em !important;
+}
+li a{
+	color:white !important;
+}
+.navbar-nav-toggle-border{
+	border:none !important;
+}
+.navbar-nav-toggle-border:hover{
+	background-color:transparent !important;
+}
+button a{
+	color:white !important;
+}
+.right-side{
+	width:10%;
+	float:none !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+}
+.middle-side{
+	width:75%;
+	float:none !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+}
+.left-side{
+	width:12%;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	float:right !important; 
+}
+.glyphicon-shopping-cart-top{
+	margin-top:5px !important;
+}
+.img-responsive{
+	z-index:-1;
+	height:624px !important;
+}
+.no-margin-padding{
+	padding-right:0px !important;
+	padding-left:0px !important;
+}
+.pic-title{
+	position:absolute !important;
+	z-index:1;
+	top:40%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.pic-title a{
+	color:white !important;
+	font-weight: bold;
+	margin-left:10px;
+}

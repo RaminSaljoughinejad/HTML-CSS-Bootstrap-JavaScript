@@ -1,0 +1,90 @@
+﻿@media screen and (max-width:768px){
+	.myrow{
+	  display: flex;
+	  flex-direction: column;
+	}
+	.change-order1{
+		order: 2;
+	}
+	.change-order{
+		order: 1;
+	}
+}
+body{
+	font-family:'Lora'!important;
+}
+.jumbotron{
+	background-color:#F4511E;
+	height:400px;
+	color:white;
+	margin-bottom:0px!important;
+}
+.header-img{
+	width:150px;
+	height:auto;
+	margin-top:50px;
+}
+.navbar{
+	background-color: #f4511e;
+	border:0;
+	font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    border-bottom: 0.5px solid rgba(255,255,255,0.3);
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.form-margin-top{
+	margin-top:15px;
+}
+.thumbnail{
+	border:none;
+	padding:0px!important;
+	padding-bottom:15px!important;
+	margin-top:20px;
+}
+.thumbnail img{
+	width:100%;
+	height:100%;
+ 	margin-bottom:20px;
+}
+.bg-gray{
+	background-color:#f6f6f6;
+}
+.col-sm-7 img{
+	width:100%;
+	height:100%;
+}
+
+.col-sm-7{
+	padding:0px!important;
+	height:490px;
+}
+.col-sm-5 h2{
+	text-align: center;
+	margin-top:65px;
+}
+.col-sm-5 h4,.col-sm-5 p{
+	text-align:justify;
+	margin-top:35px;
+}
+.btn-default{
+	background-color:#F4511E;
+	color:white;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.special-row{
+	padding-top:25px;
+}

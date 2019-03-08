@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Personal Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css" >
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+		</style> 	
+	</head>
+	<body>
+		<div id="myModal" class="modal fade container" role="dialog">
+		  <div class="modal-dialog modal-sm">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row text-center">
+		      		<img src="Image/man.png" width="100px;" />
+		      	</div>
+		     </br>
+		        <div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user font-default"></i></span>
+				  <input id="email" type="text" class="form-control" name="email" placeholder="Email" autofocus>
+				</div>
+				</br>
+				<div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-lock font-default"></i></span>
+				  <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+				</div>
+				</br>
+				<div class="input-group">
+					 <label class="checkbox-inline"><input style=" transform: scale(1.2);" type="checkbox" value="">Remember Me!</label>
+				</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<div class="row text-center">
+		      		<div class="col-xs-12">
+		      			<button href="#" class="btn btn-danger col-xs-12">Login</button></br>
+		      			<a style="line-height: 35px;margin-top: 10px;" href="#" class="btn-muted col-xs-12 text-success" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Create an account</a></br>
+		      			<a style="line-height: 30px;"href="#" class="btn-muted col-xs-12 text-danger" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">Forgot Password?</a>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div id="myModal2" class="modal fade container" role="dialog" onClick="history.go(0)">
+		  <div class="modal-dialog modal-sm">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" onClick="history.go(0)">&times;</button>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row text-center">
+		      		<img src="Image/woman.png" width="100px;" />
+		      	</div>
+		     </br>
+		        <div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user font-default"></i></span>
+				  <input id="fName" type="text" class="form-control" name="fName" placeholder="Full Name">
+				</div>
+				<div style="margin-top:5px;"></div>
+				<div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user font-default"></i></span>
+				  <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+				</div>
+				</br>
+				<div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-lock font-default"></i></span>
+				  <input id="password" type="password" class="form-control" name="password1" placeholder="Password">
+				</div>
+				<div style="margin-top:5px;"></div>
+				<div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-lock font-default"></i></span>
+				  <input id="password" type="password" class="form-control" name="password2" placeholder="Re-Password">
+				</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<div class="row text-center">
+		      		<div class="col-xs-12">
+		      			<button href="#" class="btn btn-warning col-xs-12">Submit</button></br>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div id="myModal3" class="modal fade container" role="dialog" onClick="history.go(0)">
+		  <div class="modal-dialog modal-sm">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" onClick="history.go(0)">&times;</button>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row text-center">
+		      		<img src="Image/boy.png" width="100px;" />
+		      	</div>
+		     </br>
+				<div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user font-default"></i></span>
+				  <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+				</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<div class="row text-center">
+		      		<div class="col-xs-12">
+		      			<button href="#" class="btn btn-primary col-xs-12">Submit</button></br>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#myFeedBack">Feedback</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Fields <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a style="color:#f4511e !important;" href="#">Python</a>
+								</li>
+								<li>
+									<a style="color:#f4511e !important;" href="#">WebDesign</a>
+								</li>
+								<li>
+									<a style="color:#f4511e !important;" href="#">Neural Network</a>
+								</li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="student.html">Students</a>
+						</li>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron text-center students-jumbotron">
+			<h1>Our Students</h1> 
+			<p>
+				We are proud to present a list of our many Students, and the courses they Enrolled 
+			</p>
+			<p>Sorted by their REPUTATION in our forums</p>
+			<div class="container">
+				<form class="form-inline">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Student Name, Course Name or Field" size="50" />
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-danger">
+								Seacrh
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="container-fluid text-center bg-gray">
+			<div class="row"> </div>
+			<div class="row text-center">
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/girl.png" alt="Profile-Pic" width="100px">
+			        <p><strong>Emma Watson</strong></p>
+			        <p>Manager of The Kult Magezine</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/man.png" alt="Profile-Pic">
+			        <p><strong>Sheldon Copper</strong></p>
+			        <p>Web Designer at Digikala</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/man-glasses.png" alt="Profile-Pic">
+			        <p><strong>Daniel Radcliff</strong></p>
+			        <p>Freelance IOS Developer</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/woman.png" alt="Profile-Pic">
+			        <p><strong>Kate Simson</strong></p>
+			        <p>UI Designer at Apple</p>
+			      </div>
+			    </div>
+			</div>
+			<div class="row text-center">
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/woman.png" alt="Profile-Pic" width="100px">
+			        <p><strong>Emma Watson</strong></p>
+			        <p>Manager of The Kult Magezine</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/man-glasses.png" alt="Profile-Pic">
+			        <p><strong>Sheldon Copper</strong></p>
+			        <p>Web Designer at Digikala</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/boy.png" alt="Profile-Pic">
+			        <p><strong>Daniel Radcliff</strong></p>
+			        <p>Freelance IOS Developer</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/girl.png" alt="Profile-Pic">
+			        <p><strong>Kate Simson</strong></p>
+			        <p>UI Designer at Apple</p>
+			      </div>
+			    </div>
+			</div>
+			<div class="row text-center">
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/boy.png" alt="Profile-Pic" width="100px">
+			        <p><strong>Emma Watson</strong></p>
+			        <p>Manager of The Kult Magezine</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/man.png" alt="Profile-Pic">
+			        <p><strong>Sheldon Copper</strong></p>
+			        <p>Web Designer at Digikala</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/girl.png" alt="Profile-Pic">
+			        <p><strong>Daniel Radcliff</strong></p>
+			        <p>Freelance IOS Developer</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-3">
+			      <div class="thumbnail students-thumbnail">
+			        <img src="Image/man-glasses.png" alt="Profile-Pic">
+			        <p><strong>Kate Simson</strong></p>
+			        <p>UI Designer at Apple</p>
+			      </div>
+			    </div>
+			</div>
+		</div>
+	</body>
+</html>

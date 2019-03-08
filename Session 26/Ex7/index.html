@@ -1,0 +1,22 @@
+﻿<html>
+	<head>
+		<script type="text/javascript">
+			function starbox(){
+				var myNum = document.getElementById("myNum").value;
+				document.getElementById("myDiv").innerHTML = "";
+				myNum= parseInt(myNum);
+				var mString="";
+				while(myNum>0){
+					mString = mString + "*"; 
+					document.getElementById("myDiv").innerHTML += mString + "</br>";
+					myNum-=1;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="myDiv">Here</div>
+		<input type="number" id="myNum" />
+		<button onclick="starbox();">Start</button>
+	</body>
+</html>

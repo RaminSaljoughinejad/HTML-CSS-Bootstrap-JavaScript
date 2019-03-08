@@ -1,0 +1,118 @@
+﻿*{
+	padding:0;
+	margin:0;
+}
+#MainHeader{
+	width:100%;
+	height:400px;
+	background-color:orange;
+}
+#headerMenu{
+	width:100%;
+	height:50px;
+	background-color:orange;
+	border:none;
+	border-bottom:1px solid rgba(255,255,255,0.4);
+}
+#headerMenu a{
+	letter-spacing:1.5px;
+	float:right;
+	text-decoration: none;
+	line-height:50px;
+	padding-right:7px;
+	padding-left:7px;
+	color:white;
+}
+#headerLogo{
+	margin-top:80px;
+	width:300px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+#headerInputField{
+	margin-top:30px;
+	width:470px;
+	background-color:transparent;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+}
+#headerInputField input[type="search"]{
+	padding-left:5px;
+	padding-right:5px;
+	width:97%;
+	height:30px;
+	border:1px solid transparent;
+	background-color:white;
+	border-radius: 5px;
+}
+#headerInputField input[type="search"]:hover{
+	border:1px solid rgb(236, 136, 35);
+}
+#headerInputButton{
+	width:200px;
+	background-color:transparent;
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+	margin-top:15px;
+}
+.active{
+	background-color:white;
+	color:rgb(244,81,30)!important;
+}
+#headerInputButton input[type="submit"]{
+	width:150px;
+	height:35px;
+	background-color:rgb(244, 81, 30);
+	border:none;
+	color:white;
+	border-radius: 5px;
+	font-size:17px;
+}
+#headerInputButton input[type="submit"]:hover{
+	background-color:rgb(217, 83, 79);
+}
+#section1{
+	margin-top:10px;
+	width:100%;
+	height:534px;
+	background-color:rgba(0,0,0,0.05);
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.biggerSider{
+	float:right;
+	width:70%;
+	background-color:transparent;	
+}
+.biggerSider img{
+	width:100%;
+}
+.smallerSider{
+	float:right;
+	width:30%;
+	background-color:transparent;
+}
+#section2{
+	margin-top:20px;
+	width:100%;
+	background-color:transparent;
+	text-align:center;
+}
+.subSec1{
+	float:right;
+	width:30%;
+	height:300px;
+	background-color:rgba(0,0,0,0.05);
+	margin-right:2.5%;
+	margin-bottom:50px;
+}
+.subSec1 img{
+	width:100%;
+}
+.subSec1 p{
+	margin-top:25px;
+	font-size:17px;
+}

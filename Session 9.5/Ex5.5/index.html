@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Z-indexing using animation</title>
+		<style>
+			div{
+				position:absolute;
+			}
+			#container div{
+				background-color:lightblue;
+				border:1px solid #333333;
+				opacity:0.5;
+				width:100px;
+				height:100px;
+			}
+			div#myBox{
+				background-color:coral;
+				opacity:1;
+				z-index:1;
+				-webkit-animation: mymove 5s infinite linear; /* Chrome, Safari, Opera */
+				animation: mymove 5s infinite linear; /* standard syntax */
+			}
+			/* Chrome, Safari, Opera, IE7+ */
+			@-webkit-keyframes mymove {
+				50% {z-index: 5;}
+			}
+
+			/* Standard syntax */
+			@keyframes
+			mymove {
+				50% {z-index: 5;}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="myBox">My Box</div>
+			<div style="top:20px;left:20px;z-index:1;">z-index 1</div>
+			<div style="top:40px;left:40px;z-index:2;">z-index 2</div>
+			<div style="top:60px;left:60px;z-index:3;">z-index 3</div>
+			<div style="top:80px;left:80px;z-index:4;">z-index 4</div>
+		</div>
+	</body>
+</html>

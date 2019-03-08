@@ -1,0 +1,37 @@
+﻿body{
+	background-image:url("../image/login-background-1920.3f7pb.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color:rgb(13, 30, 48);
+}
+#wrapper{
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	width:350px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgba(255,255,255,0.3);
+}
+#wrapper input[type="text"],input[type="password"],select{
+	text-align:center;
+	background-color:rgba(0,0,0,0.3);
+	width:300px;
+	height:30px;
+	border:none;
+	margin-top:5px;
+	color:white;
+}
+#wrapper input[type="submit"]{
+	margin-top:7.5px;
+	width:300px;
+	height:35px;
+	border:none;
+}
+#myLogo{
+	margin-top:50px;
+	text-align:center;
+	width:300px;
+	margin-right:auto;
+	margin-left:auto;
+}
