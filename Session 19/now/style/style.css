@@ -1,0 +1,54 @@
+.jumbotron{
+    background-color:cadetblue;
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+}
+.container-fluid{
+    padding:60px 50px;
+}
+.my-logo{
+    margin-top:80px;
+    font-size:200px;
+    color:cadetblue;
+}
+.col-sm-8 h4, .col-sm-8 h2{
+    margin-bottom: 50px;
+}
+.bg-costum{
+    background-color:#F6F6F6;
+}
+.my-logo-small{
+    font-size:50px;
+    color:cadetblue;
+}
+.services-row{
+    margin-top: 60px;
+}
+.services-row .col-sm-4{
+    margin-bottom:30px;
+}
+.thumbnail{
+    padding:0 0 15px 0;
+    border:none;
+}
+.thumbnail img{
+    margin-bottom: 30px;
+}
+.carousel-control.right, .carousel-control.left{
+    color:cadetblue;
+    background-image: none;
+}
+.item{
+    margin:70px 0px;
+}
+.carousel-indicators li{
+    border-color:cadetblue;
+}
+.carousel-indicators li.active{
+    background-color:cadetblue;
+}
+.end-arrow{
+    font-size:25px;
+    color:#FF8D00;
+}

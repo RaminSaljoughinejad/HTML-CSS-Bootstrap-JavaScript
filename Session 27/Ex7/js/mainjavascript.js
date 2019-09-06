@@ -1,4 +1,5 @@
-﻿document.write(Math.floor(0.1),"</br>");
+﻿document.write(Math.floor(0.0),"</br>");
+document.write(Math.floor(0.1),"</br>");
 document.write(Math.floor(0.2),"</br>");
 document.write(Math.floor(0.3),"</br>");
 document.write(Math.floor(0.4),"</br>");
@@ -7,6 +8,7 @@ document.write(Math.floor(0.6),"</br>");
 document.write(Math.floor(0.7),"</br>");
 document.write(Math.floor(0.8),"</br>");
 document.write(Math.floor(0.9),"</br></br>");
+document.write(Math.round(0.0),"</br>");
 document.write(Math.round(0.1),"</br>");
 document.write(Math.round(0.2),"</br>");
 document.write(Math.round(0.3),"</br>");

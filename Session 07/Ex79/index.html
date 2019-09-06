@@ -1,46 +1,116 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>More about backgorund image attribute</title>
-		<style>
-			#wrapper{
-				width:1000px;
-				height:100px;
-				background-color:lightgreen;
-				margin-right:auto;
-				margin-left:auto;
-			}
-			#leftBar{
-				width:30%;
-				float:right;
-				background-color:pink;
-			}
-			#rightBar{
-				width:30%;
-				background-color:red;
-				float:right;
-			}
-			#centerBar{
-				width:40%;
-				float:right;
-				background-color:yellow;
-			}
-			#adver{
-				width:100%;
-				height:50px;
-				background-color:purple;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="wrapper">
-			<div id="leftBar">s</div>
-			<div id="centerBar">
-				<div id="adver">
-					
-				</div>
-			</div>
-			<div id="rightBar">s</div>
-		</div>
-	</body>
+    <head>
+        <style>
+            *{
+                padding: 0;
+                margin:0;
+            }
+            #headermenu1{
+                width:100%;
+                height:35px;
+                background-color:black;
+            }
+            #headermenu2{
+                width:100%;
+                height:35px;
+                background-color:gray;
+            }
+            #mainlogos{
+                width:90%;
+                margin-right: auto;
+                margin-left: auto;
+                background-color:orangered;
+                height:500px;
+                margin-top:25px;
+            }
+            .leftlogos{
+                width:25%;
+                height:100%;
+                background-color:pink;
+                float:left;
+            }
+            .centerlogos{
+                width:29%;
+                height:100%;
+                background-color:blue;
+                float:left;
+            }
+            .rightlogos{
+                width:46%;
+                height:100%;
+                background-color:yellowgreen;
+                float:left;
+            }
+            .lltop{
+                width:100%;
+                height:47.5%;
+                background-color:lightblue;
+            }
+            .llbottom{
+                width:100%;
+                height:49.5%;
+                background-color:saddlebrown;
+            }
+            .lltransparent{
+                width:100%;
+                height:3%;
+                background-color:transparent;
+            }
+            .cltop{
+                width: 100%;
+                height:35%;
+                background-color:crimson;
+            }
+            .clbottom{
+                width:100%;
+                height:65%;
+                background-color:darkviolet;
+            }
+            .rltop{
+                width: 100%;
+                height:70%;
+                background-color:sandybrown;
+            }
+            .rlbottom{
+                width:100%;
+                height:30%;
+                background-color:blue;
+            }
+            .rlbleft{
+                width:50%;
+                height: 100%;
+                background-color:aqua;
+                float:left;
+            }
+            .rlbright{
+                width:50%;
+                height:100%;
+                background-color:darkgoldenrod;
+                float:left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="headermenu1"></div>
+        <div id="headermenu2"></div>
+        <div id="mainlogos">
+            <div class="leftlogos">
+                <div class="lltop"></div>
+                <div class="lltransparent"></div>
+                <div class="llbottom"></div>
+            </div>
+            <div class="centerlogos">
+                <div class="cltop"></div>
+                <div class="clbottom"></div>
+            </div>
+            <div class="rightlogos">
+                <div class="rltop"></div>
+                <div class="rlbottom">
+                    <div class="rlbleft"></div>
+                    <div class="rlbright"></div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

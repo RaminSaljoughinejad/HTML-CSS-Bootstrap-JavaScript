@@ -1,7 +1,7 @@
 ﻿var myDate = new Date();
-var desDay = 11;
-var desMonth = 0;
-var desYear = 2019;
+var desDay = 13;
+var desMonth = 7;
+var desYear = 2005;
 
 var difDay = desDay - myDate.getDate();
 var difMonth = desMonth - myDate.getMonth();

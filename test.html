@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            .img-hover-zoom {
+              height: 300px; /* [1.1] Set it as per your need */
+              overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+            }
+
+            /* [2] Transition property for smooth transformation of images */
+            .img-hover-zoom img {
+              transition: transform .5s ease;
+            }
+
+            /* [3] Finally, transforming the image when container gets hovered */
+            .img-hover-zoom:hover img {
+              transform: scale(1.1);
+                width: inherit;
+            }
+            #mydiv {
+              width: 100px;
+              height: 100px;
+              background: red;
+              -webkit-transition-property: width; /* Safari */
+              -webkit-transition-duration: 2s; /* Safari */
+              transition-property: width;
+              transition-duration: 2s;
+            }
+
+            #mydiv:hover {
+              width: 300px;
+            }
+            .insider{
+                display: none;
+            }
+            #mydiv:hover .insider{
+                display: inline;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="img-hover-zoom" style="max-width: 600px;">
+          <img src="AI-painting1.jpg" style="max-width: 600px;" alt="This zooms-in really well and smooth">
+        </div>
+        <a href="AI-painting1" target="_blank" download>click to download</a>
+        <div id="mydiv">
+            <button>Hello1</button>
+            <button class="insider">Hello2</button>
+            <button class="insider">Hello3</button>
+        </div>
+    </body>
+</html>

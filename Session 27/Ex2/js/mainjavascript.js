@@ -2,6 +2,7 @@
 
 document.write(myArray,"</br>");
 
-myArray.push(9);
+myArray.push(90);
+myArray.push(100);
 
 document.write(myArray,"</br>");

@@ -1,0 +1,107 @@
+body{
+    font-family: 'lura';
+}
+.navbar{
+    background-color:orangered;
+    border:none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border-bottom:0.5px solid rgba(255,255,255,0.4);
+}
+.navbar-nav li a{
+    color:white!important;
+    letter-spacing:0.85px;
+}
+.navbar-nav li a:hover{
+    color:orangered!important;
+    background-color: white!important;
+}
+.navbar-nav li.active a{
+    background-color:white!important;
+    color:orangered!important;
+}
+.dropdown a.active{
+    background-color:white!important;
+    color:orangered!important;
+}
+.dropdown-menu li a{
+    color:orangered!important;
+}
+.dropdown-menu li a:hover{
+    color:white!important;
+    background-color:orangered!important;
+}
+.dropdown-toggle:focus{
+    background-color:white!important;
+    color:orangered!important;
+}
+.dropdown-toggle{
+    background-color: orangered!important;
+}
+.navbar button{
+    border-color: white!important;
+}
+.navbar-header button span{
+    background-color:white!important;
+}
+.navbar-header button:hover span{
+        background-color:orangered!important;
+}   
+.navbar-header button:hover{
+    background-color:white!important;
+}
+.navbar-header button:focus{
+    background-color:white!important;
+}
+.navbar-collapse{
+    border:none!important;
+    text-align: center!important;
+}
+@media  screen and (max-width:768px){
+    .dropdown-menu li a::before{
+        content: "                           ";
+    }
+    .dropdown-menu li a{
+        color:white!important;
+        text-align:center;
+    }
+    .dropdown-menu li a:hover{
+        color:orangered!important;
+        background-color:white!important;
+    }
+}
+.jumbotron{
+    background-color:orangered;
+    height:370px;
+    padding-left:10px!important;
+    padding-right:10px!important;
+    margin-bottom: 0px;
+}
+.text-white{
+    color:white;
+}
+.bg-gray{
+    background-color:#E2E2E2;
+}
+.bg-white{
+    background-color:white;
+}
+.my-section{
+    padding-top:30px;
+}
+.thumbnail{
+    padding:0px 0px 25px 0px;
+}
+.thumbnail img{
+    margin-bottom:20px;
+}
+p{
+    font-size:1.2em;
+}
+.col-sm-7{
+    padding:0px;
+}
+.slider-image{
+	width:100%;
+	height:540px!important;
+}
