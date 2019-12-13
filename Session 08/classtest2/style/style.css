@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#FFFFFF;
+}
+#headerMenu{
+    height:70px;
+    width:100%;
+    position: fixed;
+}
+#mainMenu{
+    margin-top:20px;
+    height:30px;
+    width: 98.7%;
+}
+#mainMenu a{
+    color:#4E2177;
+    text-decoration: none;
+    line-height:30px;
+    float:right; 
+    font-family: arial,sans-serif; 
+    margin-right:13px;
+    font-size:13px;
+}
+#greedIcon{
+    background-image: url("../image/greed.png");
+    width:22px;
+    height:inherit;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+}
+#userIcon{
+    width:30px;
+    height: inherit;
+    border-radius: 15px;
+    background-color:#5D4037;
+    color:white!important;
+    font-weight: 500;
+    text-align: center;
+}
+.withHover:hover{
+    text-decoration: underline!important;
+}
+#wrapper{
+    position: absolute;
+    width:100%;
+    margin-top:70px;
+}
+#boxer{
+    margin-top:85px;
+    text-align: center;
+    width:650px;
+    background-color:white;
+    margin-right:auto;
+    margin-left:auto;
+}
+#searchDiv{
+    margin-top:19px;
+    border: 1px solid #DFE1E5;
+    width: 584px;
+    height:46px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 23px;
+}
+.searchIconInput{
+    display: inline-block;
+    width:10%;
+    height:inherit;
+}
+.lefticon{
+    float:left;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    background-image: url("../image/magnifying.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.righticon{
+    float:right;
+    border-top-right-radius:23px; 
+    border-bottom-right-radius:23px; 
+    background-image: url("../image/microphone.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#searchDiv input[type="text"]{
+    float:left;
+    width: 80%;
+    line-height: 46px;
+    display: inline;
+    border:none;
+}
+#btnsDiv{
+    margin-top:37px;
+    width:500px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#btnsDiv button{
+    width:143px;
+    height:36px;
+    background-color:#EFEFEF;
+    color:#5F6368;
+    border:none;
+    border-radius: 3px;
+}
+#btnsDiv button:hover{
+    border:1px solid #5F6368;
+}
